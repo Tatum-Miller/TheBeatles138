@@ -1,25 +1,62 @@
-* {
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* { font-family: 'Lobster', cursive;
+  
     margin: 0;
     padding: 0;
-    font-size: 1.1rem;
+    font-size:1.1rem;
+}
+
+.Name{
+  font-family: 'Lobster', cursive;
 }
 
 h1 {
     margin: 0;
 }
 
-p {
+p {--rose: #f72585ff;
+--fandango: #b5179eff;
+--grape: #7209b7ff;
+--chrysler-blue: #560badff;
+--dark-blue: #480ca8ff;
+--zaffre: #3a0ca3ff;
+--palatinate-blue: #3f37c9ff;
+--neon-blue: #4361eeff;
+--chefchaouen-blue: #4895efff;
+--vivid-sky-blue: #4cc9f0ff;
+   --nyanza: #d8f3dcff;
+--celadon: #b7e4c7ff;
+--celadon-2: #95d5b2ff;
+--mint: #74c69dff;
+--mint-2: #52b788ff;
+--sea-green: #40916cff;
+--dartmouth-green: #2d6a4fff;
+--brunswick-green: #1b4332ff;
+--dark-green: #081c15ff;
+
     font-weight: 300;
 }
+.List-order {
+  margin-left: 20px;
 
+}
+.list-no-order {
+  list-style-position: inside;
+    list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+ 
+}
+.list-no-order li  {
+    font-size: 40px;
+  }
 header {
     position: fixed;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color:#4895efff; 
     font-weight: 300;
     padding: 15px;
     justify-content: center;
@@ -27,7 +64,7 @@ header {
 
 header h1 {
     padding-right: 40px;
-    border-right: 1px solid gray;
+    border-right: 1px solid black
 }
 
 header ul {
@@ -50,12 +87,12 @@ header li {
 
 header li :hover {
     text-decoration: underline;
-    color: #64829b;
+    color: #034072;
 }
 
 .content {
     padding: 74px 50px;
-    background-color: #f7f7f7;
+    background-color: #2d6a4fff;
     display: flex;
     gap: 35px;
     flex-wrap: wrap;
@@ -64,8 +101,7 @@ header li :hover {
 
 .card {
     width: 28%;
-    background-color: white;
-    color: #1e2d2fe8;
+    background-color: #95d5b2ff;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -74,7 +110,7 @@ header li :hover {
 }
 
 .card h2 {
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 button {
@@ -82,23 +118,23 @@ button {
     background-color: gray;
     color: white;
     padding: 12px 0;
-    border: none;
+    border: black;
     border-radius: 4px;
     cursor: pointer;
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    background-color:#4895efff;
+    color: black;
     
-    display: grid;
+    display: list;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     padding: 15px;
 }
 
 footer a {
-    color: white;
+    color: #000000;
 }
 
 footer div {
@@ -147,4 +183,7 @@ footer div {
     .business_information {
         grid-row: 3;
     }
+}
+.LIST {
+  margin-left: 30px;
 }
