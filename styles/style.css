@@ -70,7 +70,9 @@ header li :hover {
     text-decoration: underline;
     color: #034072;
 }
-
+h7{ 
+  display:block
+}
 .content {
     padding: 74px 50px;
     background-color: #2d6a4fff;
