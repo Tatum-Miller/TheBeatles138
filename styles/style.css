@@ -5,9 +5,7 @@
     padding: 0;
     font-size:1.1rem;
 }
-.all-cards{
-  
-}
+
 .Name{
   font-family: 'Lobster', cursive;
 }
@@ -15,7 +13,9 @@
 h1 {
     margin: 0;
 }
-
+.background-color{
+  background-color: black;
+}
 {
     font-weight: 300;
 }
@@ -33,7 +33,7 @@ h1 {
 
 .list-no-order li  {
     font-size: 35px;
-  h1 underline
+  
   }
 header {
     position: fixed;
@@ -76,6 +76,13 @@ header li :hover {
 }
 h7{ 
   display:block
+}
+.h1-underline{
+  text-decoration: underline 10px;
+  
+}
+.round{
+  border-radius: 45px;
 }
 .content {
     padding: 74px 50px;
